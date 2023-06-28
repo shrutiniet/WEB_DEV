@@ -18,3 +18,11 @@ A dynamic website, on the other hand, generates content dynamically and can vary
 
 Frontend part--> The part user are able to see. (Client site)
 Backend part: Server Side.
+
+
+
+**DNS: Domain Name System: indicates domain name like google.com**
+1. we enter URL
+2. ISP: to get the desired IP address
+3. we get DNS
+4. Browser then connects with the server
