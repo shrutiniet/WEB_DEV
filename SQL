@@ -1,0 +1,46 @@
+DataBase: is container for data.
+
+SQL is a standard language for accessing and manipulating databases. SQL stands foe Structured Query Language. Its language for creating DBs. 
+MYSQL is RDMS, a software used for creating nad manipulating data.
+
+Some popular DBs: MYSQL, MYSQL Server, Couch DB, SQL Lite, ORACLE, etc.
+QUERY: A query is a request to the database to get a specific piece of info. 
+Basic Queries: CRUD (Creation, read, update & delete). 
+
+Queries:
+1. Creating a database:
+CREATE DATABASE NAME;             
+ex: CREATE DATABASE STUDENTS;
+
+2. TO DELETE DATABASE:
+DROP DATABASE NAME;
+ex:  DROP DATABASE STUDENTS;
+
+3. TO CREATE TABLE
+CREATE TABLE STUD(
+ID INT (2),
+Name VARCHAR (25),
+EMAIL VARCHAR(30),
+CLASS INT(2)
+);
+
+4. DESCRIBE Table values
+DESCRIBE STUD;
+
+output: 
+Field 	Type 	Null 	Key 	Default 	Extra 	
+ID 	int(2) 	YES 		NULL 	
+Name 	varchar(25) 	YES 		NULL 	
+EMAIL 	varchar(30) 	YES 		NULL 	
+CLASS 	int(2) 	YES 		NULL 
+
+5. To Insert Data in Table:
+
+INSERT INTO STUD(ID,NAME,EMAIL,CLASS) VALUES
+(12,"SR","ss1215@gmail.com",14),
+(15,"SS","ss1512@gmail.com",13);
+
+
+6. To Update & Delete Table:
+
+
